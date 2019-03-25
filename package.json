@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "istanbul cover _mocha && npm run check-coverage",
-    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --lines 100 --functions 100",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --lines 100 --functions 100"
   },
   "keywords": [
     "base64",
@@ -26,7 +25,6 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "coveralls": "^3.0.3",
     "istanbul": "^0.4.5",
     "mocha": "^6.0.2"
   }
