@@ -2,9 +2,7 @@
 
 [![NPM](https://nodei.co/npm/b64id.png?compact=true)](https://nodei.co/npm/b64id/)
 
-[![Build Status](https://travis-ci.org/monteslu/b64id.svg?branch=master)](https://travis-ci.org/monteslu/b64id) 
-![b64id](b64id.png)
-
+[![CircleCI](https://circleci.com/gh/monteslu/b64id.svg?style=svg)](https://circleci.com/gh/monteslu/b64id)
 
 ## Why ?
 
