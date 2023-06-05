@@ -1,5 +1,5 @@
 const base64 = require('base64-url');
-const uuidv4 = require('uuid/v4');
+const uuidv4 = require('uuid').v4;
 
 function uuidToB64(uuidStr) {
   const buf = Buffer.from(uuidStr.replace(/\-/g, ''), 'hex');
